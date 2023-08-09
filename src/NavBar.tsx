@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div>
             <nav>
-                <ul>
-                    <li>
+                <ul style={{ display: 'flex', listStyle: 'none', padding: 0 }}>
+                    <li style={{ marginRight: '50px' }} >
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li style={{ marginRight: '50px' }}>
                         <Link to="/Tournament1">Tournament1</Link>
                     </li>
                     <li>
@@ -17,7 +16,6 @@ const NavBar = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
     )
 }
 export default NavBar;

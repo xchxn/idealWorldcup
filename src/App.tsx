@@ -6,7 +6,6 @@ import Tournament1 from './Tournament1';
 import Quiz from './Quiz';
 import NavBar from './NavBar';
 const App:React.FC = () => {
-
   return (
     <Router>
         <NavBar />
